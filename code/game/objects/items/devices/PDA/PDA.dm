@@ -136,8 +136,8 @@ GLOBAL_LIST_EMPTY(PDAs)
 
 	if (mode == 0)
 		dat += "<div align=\"center\">"
-		dat += "<br><a href='byond://?src=\ref[src];choice=Toggle_Font'>Toggle Font</a>"
-		dat += " | <a href='byond://?src=\ref[src];choice=Change_Color'>Change Color</a>"
+		dat += "<br><a href='byond://?src=\ref[src];choice=Toggle_Font'><img src=pda_font.png>Toggle Font</a>"
+		dat += " | <a href='byond://?src=\ref[src];choice=Change_Color'><img src=pda_color.png>Change Color</a>"
 		dat += "</div>"
 
 	dat += "<br>"
@@ -317,7 +317,7 @@ GLOBAL_LIST_EMPTY(PDAs)
 //BASIC FUNCTIONS===================================
 
 			if("Refresh")//Refresh, goes to the end of the proc.
-			
+
 			if ("Toggle_Font")
 				//CODE REVISION 2
 				font_index = (font_index + 1) % 4
